@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.dell.millionairegame.PopUpScore">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/moneybag"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/scoreMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100$"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/continue_playing"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Continue"
+        android:textSize="20dp"
+        android:textColor="@color/buttons"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_controller"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/take_money"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Take Money"
+        android:textSize="20dp"
+       android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/btn2_controller"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

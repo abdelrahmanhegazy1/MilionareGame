@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.dell.millionairegame.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp">
+
+        <Button
+            android:id="@+id/back_menu"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:id="@+id/no_questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/15"
+            android:textSize="20dp"
+            android:textColor="@color/orange"
+            android:layout_marginLeft="135dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/safe_timer"
+        android:textSize="45dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:paddingTop="19dp"
+        android:paddingRight="1dp"
+        android:text="60"/>
+
+    <LinearLayout
+        android:id="@+id/question_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="5dp"
+        android:text="what is this ??"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/helpers_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <Button
+            android:id="@+id/remove2q"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="-2"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingRight="5dp"
+            android:background="@drawable/cancel_2"
+            android:layout_marginLeft="50dp"
+            />
+
+        <Button
+            android:id="@+id/friendhelp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/avatar"
+            android:layout_marginLeft="70dp"
+            />
+
+        <Button
+            android:id="@+id/audienceHelp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/audience"
+            android:layout_marginLeft="70dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/answers_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="45dp">
+
+        <Button
+            android:id="@+id/choice_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:paddingLeft="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:background="@drawable/choice_controller"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/choice_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:paddingLeft="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:background="@drawable/choice_controller"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/choice_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:paddingLeft="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:background="@drawable/choice_controller"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/choice_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:paddingLeft="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:background="@drawable/choice_controller"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
